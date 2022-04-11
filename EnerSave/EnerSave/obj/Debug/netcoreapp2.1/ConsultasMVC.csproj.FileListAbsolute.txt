@@ -1,0 +1,317 @@
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.g.cshtml.cs
+C:\Users\PC\Desktop\UCS\4° semestre\Projeto e arquitetura de software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\aabortolan\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\Richard\Downloads\Projeto e Arquitetura de Software\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\rgcastilhos\Downloads\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.json
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.genruntimeconfig.cache
+D:\User\Downloads\Trabalho_Odontologia\Trabalho_Odontologia\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.json
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.genruntimeconfig.cache
+D:\User\Downloads\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.deps.json
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.json
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.runtimeconfig.dev.json
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.dll
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\bin\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.AssemblyInfo.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.input.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.TagHelpers.output.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorCoreGenerate.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Create.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Details.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tconsultas\Index.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Create.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Details.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tdentistas\Index.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Create.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Details.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\Tpacientes\Index.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.Views.pdb
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.dll
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.pdb
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.genruntimeconfig.cache
+C:\Users\User\Desktop\ProjTCC\Trabalho PrjSistWeb\Trabalho PrjSistWeb\ConsultasMVC\ConsultasMVC\obj\Debug\netcoreapp2.1\ConsultasMVC.csproj.CopyComplete
