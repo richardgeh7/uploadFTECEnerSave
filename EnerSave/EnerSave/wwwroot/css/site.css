@@ -35,3 +35,8 @@ body {
         display: none;
     }
 }
+
+.navbar-custom-es {
+    background-color: #1b6d85;
+    border-color: #080808;
+};

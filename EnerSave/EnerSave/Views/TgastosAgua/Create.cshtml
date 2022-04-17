@@ -1,0 +1,43 @@
+﻿@model EnerSave.Views.ViewModels.GastosAguaViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2><font color="gray">Cadastro de Gastos de Água</h2>
+<h5><font color="black">Informe abaixo os dados necessários para o registro do gasto de água no período.</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MetrosCubicos" class="control-label">Metros Cúbicos (m3)</label>
+                <input asp-for="MetrosCubicos" class="form-control" />
+                <span asp-validation-for="MetrosCubicos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Periodo" class="control-label">Período</label>
+                <input asp-for="Periodo" class="form-control" />
+                <span asp-validation-for="Periodo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label">Usuário</label>
+                <input asp-for="UsuarioId" class="form-control" />
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" style="color: blue;">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

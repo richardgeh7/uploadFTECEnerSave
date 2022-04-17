@@ -1,4 +1,6 @@
-﻿using ConsultasMVC.dbenersave;
+﻿using ConsultasMVC.Controllers.abstractions;
+using ConsultasMVC.dbenersave;
+using ConsultasMVC.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -30,6 +32,7 @@ namespace ConsultasMVC
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<ITgastosAguaModel, TgastosAguaModel>();
 
             var connection = @"server=localhost;user id=root;database=dbenersave;password=;port=3306";
             services.AddDbContext<DbenersaveContext>
@@ -61,12 +64,6 @@ namespace ConsultasMVC
                 routes.MapRoute(
                     name: "gastosAgua",
                     template: "{controller=TgastosAgua}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "gastosEnergia",
-                    template: "{controller=TgastosEnergia}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "descarteLixo",
-                    template: "{controller=TdescarteLixo}/{action=Index}/{id?}");
             });
         }
     }

@@ -1,0 +1,36 @@
+﻿@model ConsultasMVC.dbenersave.TgastosAgua
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2><font color="gray">Detalhes do Gastos de Água</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Metros Cúbicos (m3):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MetrosCubicos)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UsuarioId)
+        </dd>
+        <br />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" style="color: blue;" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index" style="color: blue;">Voltar</a>
+</div>

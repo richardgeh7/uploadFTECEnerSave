@@ -11,10 +11,5 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.13" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\abstractions\" />
-  </ItemGroup>
   
-
 </Project>

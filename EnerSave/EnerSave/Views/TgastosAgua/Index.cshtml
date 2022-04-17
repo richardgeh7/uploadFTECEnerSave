@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ConsultasMVC.dbenersave.TgastosAgua>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2><font color="gray">Gastos de Água</h2>
+<h5><font color="gray">Abaixo são exibidos os gastos com água cadastrados.</h5>
+<br />
+
+<p>
+    <a asp-action="Create" style="color: blue;">
+       <input type="submit" style="background-color: dodgerblue; color: white;" value="Novo Gasto de Água" class="btn btn-default">
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Metros Cúbicos (m3)
+            </th>
+            <th>
+                Período
+            </th>
+            <th>
+                Usuário
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetrosCubicos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Periodo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioId)
+                </td>
+                <td>
+                    <a asp-action="Edit" style="color: blue;" asp-route-id="@item.Id">Alterar</a> |
+                    <a asp-action="Details" style="color: blue;" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Delete" style="color: blue;" asp-route-id="@item.Id">Remover</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

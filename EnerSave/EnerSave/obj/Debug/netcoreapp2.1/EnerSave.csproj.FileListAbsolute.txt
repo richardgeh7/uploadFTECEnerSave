@@ -61,3 +61,8 @@ C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
 C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
 C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
 C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
