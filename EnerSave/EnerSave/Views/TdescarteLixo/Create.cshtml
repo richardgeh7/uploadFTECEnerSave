@@ -1,0 +1,72 @@
+﻿@model EnerSave.Views.ViewModels.DescarteLixoViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Cadastro de Descarte de Lixo</h2>
+<h5>Informe abaixo os dados necessários para o registro do descarte de lixo no período.</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Peso" class="control-label">Peso(KG)</label>
+                <input asp-for="Peso" class="form-control" />
+                <span asp-validation-for="Peso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Reciclavel" class="control-label">Reciclável</label>
+                @Html.RadioButtonFor(Models => Models.Reciclavel, 1)
+                <span>Sim</span>
+
+                @Html.RadioButtonFor(Models => Models.Reciclavel, 0)
+                <span>Não</span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organico" class="control-label">Orgânico</label>
+                @Html.RadioButtonFor(Models => Models.Organico, 1)
+                <span>Sim</span>
+
+                @Html.RadioButtonFor(Models => Models.Organico, 0)
+                <span>Não</span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Eletronico" class="control-label">Eletrônico</label>
+                @Html.RadioButtonFor(Models => Models.Eletronico, 1)
+                <span>Sim</span>
+
+                @Html.RadioButtonFor(Models => Models.Eletronico, 0)
+                <span>Não</span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoLixo" class="control-label">Descricao do Lixo</label>
+                <input asp-for="DescricaoLixo" class="form-control" />
+                <span asp-validation-for="DescricaoLixo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Periodo" class="control-label">Período</label>
+                <input asp-for="Periodo" class="form-control" />
+                <span asp-validation-for="Periodo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label">Usuário</label>
+                <input asp-for="UsuarioId" class="form-control" />
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

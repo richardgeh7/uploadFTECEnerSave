@@ -1,0 +1,113 @@
+﻿@model IEnumerable<ConsultasMVC.dbenersave.TdescarteLixo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Descarte de Lixo</h2>
+<h5>Abaixo são exibidos os descartes de lixo cadastrados.</h5>
+<br />
+
+<p>
+    <a asp-action="Create">
+       <input type="submit" value="Novo Descarte de Lixo" class="btn btn-default">
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Peso(KG)
+            </th>
+            <th>
+                Reciclável
+            </th>
+            <th>
+                Orgânico
+            </th>
+            <th>
+                Eletrônico
+            </th>
+            <th>
+                Descrição do Lixo
+            </th>
+            <th>
+                Período
+            </th>
+            <th>
+                Usuário
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peso)
+                @if (item.Peso == 1)
+                {
+                    <span>Sim</span>
+                }
+            </td>
+            <td>
+                @if (item.Reciclavel == 1)
+                {
+                    <span>Sim</span>
+                }
+                else
+                {
+                    <span>Não</span>
+                }
+            </td>
+            <td>
+                @if (item.Organico == 1)
+                {
+                    <span>Sim</span>
+                }
+                else
+                {
+                    <span>Não</span>
+                }
+            </td>
+            <td>
+                @if (item.Eletronico == 1)
+                {
+                    <span>Sim</span>
+                }
+                else
+                {
+                    <span>Não</span>
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoLixo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Periodo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">
+                    <button type="button" class="btn btn-sm">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    </button>
+                </a>
+                <a asp-action="Details" asp-route-id="@item.Id">
+                    <button type="button" class="btn btn-sm">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </a>
+                <a asp-action="Delete" asp-route-id="@item.Id">
+                    <button type="button" class="btn btn-sm">
+                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </button>
+                </a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

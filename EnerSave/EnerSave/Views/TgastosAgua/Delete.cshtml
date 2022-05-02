@@ -4,7 +4,7 @@
     ViewData["Title"] = "Delete";
 }
 
-<h2><font color="gray">Exclusão de Gastos de Água</h2>
+<h2>Exclusão de Gastos de Água</h2>
 
 <h4>Deseja realmente remover este gasto com água? </h4>
 <div>
@@ -33,6 +33,6 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Excluir" class="btn btn-default" /> |
-        <a asp-action="Index" style="color: blue;">Cancelar</a>
+        <a asp-action="Index" >Cancelar</a>
     </form>
 </div>

@@ -1,0 +1,62 @@
+﻿@model ConsultasMVC.dbenersave.TdescarteLixo
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Exclusão de Descarte de Lixo</h2>
+
+<h4>Deseja realmente remover este descarte de lixo? </h4>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Peso(KG):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+        <dt>
+            Reciclável:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Reciclavel)
+        </dd>
+        <dt>
+            Orgânico:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Organico)
+        </dd>
+        <dt>
+            Eletrônico:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Eletronico)
+        </dd>
+        <dt>
+            Descrição do Lixo:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoLixo)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UsuarioId)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-default" /> |
+        <a asp-action="Index" >Cancelar</a>
+    </form>
+</div>
