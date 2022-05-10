@@ -151,3 +151,13 @@ C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\
 C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
 C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
 C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
