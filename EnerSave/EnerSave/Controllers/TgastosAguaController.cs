@@ -132,9 +132,22 @@ namespace ConsultasMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // GET: TgastosAgua/Grafico
+        public IActionResult Grafico()
+        {
+            return View();
+        }
+
         private bool TgastosAguaExists(int id)
         {
             return _model.gastosAguaExists(id);
         }
+
+        // Função para gerar lista Json
+        public async Task<JsonResult> DadosGrafico() 
+        {  
+           var lista = await _model.getAllGastosAgua();  
+           return Json(lista);  
+        }  
     }
 }

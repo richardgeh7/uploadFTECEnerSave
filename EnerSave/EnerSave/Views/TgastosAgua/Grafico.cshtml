@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewData["Title"] = "Gráfico";
+}
+
+<h2>Gráfico</h2>
+
+@* Ínicio gráfico *@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+
+<div id="chart_div" style="width: 1200px; height: 500px;"></div>  
+
+<script type="text/javascript">  
+    google.charts.load('current', {packages: ['corechart', 'bar']});  
+    google.charts.setOnLoadCallback(CarregaDados);
+
+    function CarregaDados() {   
+
+        $.ajax({  
+            url: '@Url.Action("DadosGrafico", "TgastosAgua")',  
+            dataType:
+             "json",  
+            type: "GET",  
+            error: function(xhr, status, error) {  
+                var err = eval("(" + xhr.responseText + ")");  
+                toastr.error(err.message);  
+            },  
+            success: function(dados) {  
+                console.log(dados);
+                MontaGrafico(dados);  
+                return false;  
+            }  
+        });  
+        return false;  
+    }  
+
+
+    function MontaGrafico(dados) {  
+        var meses = [
+            "Janeiro",
+            "Fevereiro",
+            "Março",
+            "Abril",
+            "Maio",
+            "Junho",
+            "Julho",
+            "Agosto",
+            "Setembro",
+            "Outubro",
+            "Novembro",
+            "Dezembro",
+        ];
+
+        var usuarios = dados
+            .map(item => item.usuarioId)
+            .filter((v, i, a) => a.indexOf(v) === i);
+
+        var primeiraLinha = ['Mês'];
+
+        for (var usuarioId of usuarios) {
+            primeiraLinha.push("Usuário " + usuarioId)
+        }
+
+        var dataArray = [  
+            primeiraLinha,
+            ];  
+
+        for (var index in meses) {
+            var mes = meses[index];
+
+            var dadosDoMes = dados.filter(item => new Date(item.periodo).getMonth() == index);
+
+            var linha = [mes];
+
+            for (var usuarioId of usuarios) {
+                var dadoDoUsuario = dadosDoMes.filter(item => item.usuarioId == usuarioId);
+                if (dadoDoUsuario && dadoDoUsuario.length > 0) {
+                    linha.push(dadoDoUsuario[0].metrosCubicos);
+                } else {
+                    linha.push(0);
+                }
+            }
+
+            dataArray.push(linha);
+        };
+
+         
+        var data = google.visualization.arrayToDataTable(dataArray);  
+        var options = {  
+            title: 'Água consumida',  
+            chartArea: {  
+                width: '70%'  
+            },  
+            colors: ['#b0120a', '#ffab91'],  
+            hAxis: {  
+                title: 'Periodo',  
+                minValue: 0  
+            },  
+            vAxis: {  
+                title: 'Consumo'  
+            }  
+        };  
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  
+        chart.draw(data, options);  
+        return false;  
+    }  
+</script> 
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
