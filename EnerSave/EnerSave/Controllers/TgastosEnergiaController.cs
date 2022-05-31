@@ -132,9 +132,26 @@ namespace ConsultasMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public IActionResult Grafico()
+        {
+            return View();
+        }
+        
+        public IActionResult Real()
+        {
+            return View();
+        }
+
         private bool TgastosEnergiaExists(int id)
         {
             return _model.gastosEnergiaExists(id);
         }
+
+        // Função para gerar lista Json
+        public async Task<JsonResult> DadosGrafico() 
+        {  
+           var lista = await _model.getAllGastosEnergia();  
+           return Json(lista);  
+        }  
     }
 }

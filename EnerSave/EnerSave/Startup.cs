@@ -36,7 +36,7 @@ namespace ConsultasMVC
             services.AddScoped<ITgastosEnergiaModel, TgastosEnergiaModel>();
             services.AddScoped<ITdescarteLixoModel, TdescarteLixoModel>();
 
-            var connection = @"server=localhost;user id=root;database=dbenersave;password=123456;port=3306";
+            var connection = @"server=localhost;user id=root;database=dbenersave;password=Felipe2021;port=3306";
             services.AddDbContext<DbenersaveContext>
                 (options => options.UseMySQL(connection));
         }
