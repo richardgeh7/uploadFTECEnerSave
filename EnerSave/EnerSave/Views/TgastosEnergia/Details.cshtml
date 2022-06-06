@@ -1,0 +1,42 @@
+﻿@model ConsultasMVC.dbenersave.TgastosEnergia
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes do Gastos de Energia</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Kilowatts(kWh):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Kilowatts)
+        </dd>
+        <dt>
+            Valor(R$):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+        <br />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

@@ -1,0 +1,38 @@
+﻿@model ConsultasMVC.dbenersave.Tusuarios
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Exclusão de Usuários</h2>
+
+<h4>Deseja realmente remover este usuário </h4>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            Login:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Login)
+        </dd>
+        <dt>
+            Administrador:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Administrador)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-default" /> |
+        <a asp-action="Index" >Cancelar</a>
+    </form>
+</div>

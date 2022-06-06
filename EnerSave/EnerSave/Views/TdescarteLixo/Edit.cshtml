@@ -1,0 +1,64 @@
+﻿@model ConsultasMVC.dbenersave.TdescarteLixo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Atualização do Descarte de Lixo</h2>
+<h5>Informe os dados necessários abaixo para efetuar a atualização dos dados.</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Peso" class="control-label">Peso(KG)</label>
+                <input asp-for="Peso" class="form-control" />
+                <span asp-validation-for="Peso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Reciclavel" class="control-label">Reciclável</label>
+                <input asp-for="Reciclavel" class="form-control" />
+                <span asp-validation-for="Reciclavel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organico" class="control-label">Orgânico</label>
+                <input asp-for="Organico" class="form-control" />
+                <span asp-validation-for="Organico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Eletronico" class="control-label">Eletrônico</label>
+                <input asp-for="Eletronico" class="form-control" />
+                <span asp-validation-for="Eletronico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoLixo" class="control-label">Descrição do Lixo</label>
+                <input asp-for="DescricaoLixo" class="form-control" />
+                <span asp-validation-for="DescricaoLixo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Periodo" class="control-label">Período</label>
+                <input asp-for="Periodo" class="form-control" />
+                <span asp-validation-for="Periodo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label"></label>
+                <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,44 @@
+﻿@model ConsultasMVC.dbenersave.TgastosEnergia
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Exclusão de Gastos de Energia</h2>
+
+<h4>Deseja realmente remover este gasto com energia? </h4>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Kilowatts(kWh):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Kilowatts)
+        </dd>
+        <dt>
+            Valor (R$):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-default" /> |
+        <a asp-action="Index" >Cancelar</a>
+    </form>
+</div>

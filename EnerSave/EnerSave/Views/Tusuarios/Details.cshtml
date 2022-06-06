@@ -1,0 +1,36 @@
+﻿@model ConsultasMVC.dbenersave.Tusuarios
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes do Usuário</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            Login:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Login)
+        </dd>
+        <dt>
+            Administrador:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Administrador)
+        </dd>
+        <br />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

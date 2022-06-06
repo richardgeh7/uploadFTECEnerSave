@@ -1,0 +1,60 @@
+﻿@model ConsultasMVC.dbenersave.TdescarteLixo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes do Descarte de Lixo</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Peso(KG):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+        <dt>
+            Reciclável:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Reciclavel)
+        </dd>
+        <dt>
+            Orgânico:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Organico)
+        </dd>
+        <dt>
+            Eletrônico:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Eletronico)
+        </dd>
+        <dt>
+            Descrição do Lixo:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoLixo)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+        <br />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>
