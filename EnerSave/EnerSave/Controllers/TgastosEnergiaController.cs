@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace ConsultasMVC.Controllers
 {
     //[Authorize]
-    public class TgastosAguaController : Controller
+    public class TgastosEnergiaController : Controller
     {
-        private readonly ITgastosAguaStore _model;
+        private readonly ITgastosEnergiaStore _model;
 
-        public TgastosAguaController(ITgastosAguaStore model)
+        public TgastosEnergiaController(ITgastosEnergiaStore model)
         {
             _model = model;
         }
@@ -49,14 +49,14 @@ namespace ConsultasMVC.Controllers
         // POST: TgastosAgua/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MetrosCubicos,Periodo,UsuarioId")] GastosAguaViewModel tgastosAgua)
+        public async Task<IActionResult> Create([Bind("Id,Kwh,Valor,Periodo,UsuarioId")] GastosEnergiaViewModel tgastos)
         {
             if (ModelState.IsValid)
             {
-                await _model.Post(tgastosAgua);
+                await _model.Post(tgastos);
                 return RedirectToAction(nameof(Index));
             }
-            return View(tgastosAgua);
+            return View(tgastos);
         }
 
         // GET: TgastosAgua/Edit/5
@@ -67,20 +67,20 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
-            if (tgastosAgua == null)
+            var tgastos = await _model.GetById(id);
+            if (tgastos == null)
             {
                 return NotFound();
             }
-            return View(tgastosAgua);
+            return View(tgastos);
         }
 
         // POST: TgastosAgua/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MetrosCubicos,Periodo,UsuarioId")] GastosAguaEntity tgastosAgua)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Kwh,Valor,Periodo,UsuarioId")] GastosEnergiaEntity tgastos)
         {
-            if (id != tgastosAgua.Id)
+            if (id != tgastos.Id)
             {
                 return NotFound();
             }
@@ -89,11 +89,11 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.Update(tgastosAgua);
+                    await _model.Update(tgastos);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TgastosAguaExists(tgastosAgua.Id))
+                    if (!TgastosExists(tgastos.Id))
                     {
                         return NotFound();
                     }
@@ -104,7 +104,7 @@ namespace ConsultasMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(tgastosAgua);
+            return View(tgastos);
         }
 
         // GET: TgastosAgua/Delete/5
@@ -133,9 +133,11 @@ namespace ConsultasMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TgastosAguaExists(int id)
+        private bool TgastosExists(int id)
         {
             return _model.Exists(id);
         }
+
+
     }
 }

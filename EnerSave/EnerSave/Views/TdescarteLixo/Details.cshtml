@@ -1,0 +1,87 @@
+﻿@model ConsultasMVC.Entities.DescarteLixoEntity
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes do Descarte de lixo</h2>
+<h3>Grafico??</h3>
+
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Peso (Kg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+        <dt>
+            Orgânico
+        </dt>
+        <dd>
+            @{ if (Model.Organico)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
+        </dd>
+        <dt>
+            Seletivo
+        </dt>
+        <dd>
+            @{ if (Model.Reciclavel)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
+        </dd>
+        <dt>
+            Eletrônico
+        </dt>
+        <dd>
+            @{ if (Model.Eletronico)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
+        </dd>
+
+        <dt>
+            Observação:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Observacao)
+        </dd>
+        <dt>
+            Período:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Periodo)
+        </dd>
+        <dt>
+            Usuário:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UsuarioId)
+        </dd>
+        <br />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

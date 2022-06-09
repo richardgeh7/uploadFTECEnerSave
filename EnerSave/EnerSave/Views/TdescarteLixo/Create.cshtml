@@ -1,0 +1,86 @@
+﻿@model EnerSave.Views.ViewModels.DescarteLixoViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Cadastro de Descarte de Lixo</h2>
+<h5>Informe abaixo os dados necessários para o registro do descarte de lixo no período.</h5>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Peso" class="control-label"> Peso total (Kg):</label>
+                <input asp-for="Peso" type="number" required class="form-control"  />
+                <span asp-validation-for="Peso" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Organico" class="control-label"> Orgânico</label>
+                <input asp-for="Organico" type="checkbox" class="form-control" />
+                <span asp-validation-for="Organico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Reciclavel" class="control-label"> Seletivo</label>
+                <input asp-for="Reciclavel" type="checkbox" class="form-control" />
+                <span asp-validation-for="Reciclavel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Eletronico" class="control-label"> Eletrônico</label>
+                <input asp-for="Eletronico" type="checkbox" class="form-control checkbox" />
+                <span asp-validation-for="Eletronico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"> Observação</label>
+                <input asp-for="Observacao" type="text" class="form-control" />
+                <span asp-validation-for="Eletronico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Periodo" class="control-label">Mês do descarte:</label>
+                <input asp-for="Periodo" type="date" class="form-control"  required/>
+                <span asp-validation-for="Periodo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-labels">Usuário</label>
+                <input asp-for="UsuarioId" type="hidden" value="@EnerSave.Dominio.LoginSingleton.Instance.IdUsuario" />
+                <input disabled class="form-control" value="@EnerSave.Dominio.LoginSingleton.Instance.Usuario" />
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-default" />
+            </div>
+        </form>
+            
+         <style>
+            input:focus:invalid 
+           {
+                border: red 1px solid;
+            }
+
+            #Organico,#Reciclavel,#Eletronico{
+                width:15px;
+                height:15px;
+                float: right;
+                margin-right:250px;
+            }
+          
+        </style>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    $(document).ready(function () {
+        $('.combo').select2();
+    });
+</script>

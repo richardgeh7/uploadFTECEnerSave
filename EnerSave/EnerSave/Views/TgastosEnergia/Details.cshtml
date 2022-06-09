@@ -1,19 +1,25 @@
-﻿@model ConsultasMVC.Entities.GastosAguaEntity
+﻿@model ConsultasMVC.Entities.GastosEnergiaEntity
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h2>Detalhes do Gastos de Água</h2>
+<h2>Detalhes do Gastos de Luz</h2>
 
 <div>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Metros Cúbicos (m3):
+            Consumo(kWh)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.MetrosCubicos)
+            @Html.DisplayFor(model => model.Kwh)
+        </dd>
+        <dt>
+            Valor
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
         </dd>
         <dt>
             Período:

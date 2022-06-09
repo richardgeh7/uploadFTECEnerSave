@@ -1,21 +1,27 @@
-﻿@model ConsultasMVC.Entities.GastosAguaEntity
+﻿@model ConsultasMVC.Entities.GastosEnergiaEntity
 
 
 @{
     ViewData["Title"] = "Delete";
 }
 
-<h2>Exclusão de Gastos de Água</h2>
+<h2>Exclusão de Gastos de Luz</h2>
 
-<h4>Deseja realmente remover este gasto com água? </h4>
+<h4>Deseja realmente remover este gasto com luz? </h4>
 <div>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Metros Cúbicos (m3):
+            Consumo(kWh)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.MetrosCubicos)
+            @Html.DisplayFor(model => model.Kwh)
+        </dd>
+        <dt>
+            Valor
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
         </dd>
         <dt>
             Período:

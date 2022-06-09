@@ -1,21 +1,26 @@
-﻿@model ConsultasMVC.Entities.GastosAguaEntity
-
+﻿@model ConsultasMVC.Entities.DescarteLixoEntity
 
 @{
     ViewData["Title"] = "Delete";
 }
 
-<h2>Exclusão de Gastos de Água</h2>
+<h2>Exclusão de Descarte de Lixo</h2>
 
-<h4>Deseja realmente remover este gasto com água? </h4>
+<h4>Deseja realmente remover este descarte de lixo? </h4>
 <div>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Metros Cúbicos (m3):
+            Peso total orgânico (Kg)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.MetrosCubicos)
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+         <dt>
+            Peso total seletivo (Kg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Peso)
         </dd>
         <dt>
             Período:
@@ -34,6 +39,6 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Excluir" class="btn btn-default" /> |
-        <a asp-action="Index">Cancelar</a>
+        <a asp-action="Index" >Cancelar</a>
     </form>
 </div>

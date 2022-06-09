@@ -1,30 +1,40 @@
-﻿@model IEnumerable<ConsultasMVC.Entities.GastosAguaEntity>
+﻿@model IEnumerable<ConsultasMVC.Entities.DescarteLixoEntity>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h2>Gastos de Água</h2>
-<h5>Abaixo são exibidos os gastos com água cadastrados.</h5>
+<h2>Descarte de Lixo</h2>
+<h5>Abaixo são exibidos os descartes de lixo cadastrados.</h5>
 <hr />
+
 <br />
 
 <p>
     <a asp-action="Create">
-        <input type="submit" value="Novo Gasto de Água" class="btn btn-default">
+        <input type="submit" value="Novo Descarte de Lixo" class="btn btn-default">
     </a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                Metros Cúbicos (m3)
+                Peso total (Kg)
             </th>
             <th>
-                Data de Leitura
+                Orgânico
             </th>
             <th>
-                Usuário
+                Seletivo
+            </th>
+            <th>
+                Eletrônico
+            </th>
+            <th>
+                Observação
+            </th>
+            <th>
+                Período do descarte
             </th>
             <th></th>
         </tr>
@@ -34,7 +44,40 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.MetrosCubicos)
+                    @Html.DisplayFor(modelItem => item.Peso)
+                </td>
+                <td>
+                    @{ if (item.Organico)
+                        {
+                            @:Sim
+                        }
+                        else
+                        {
+                            @:Não
+                        }
+                    }
+                </td>
+                <td>
+                    @{ if (item.Reciclavel)
+                        {
+                            @:Sim
+                        }
+                        else
+                        {
+                            @:Não
+                        }
+                    }
+                </td>
+                <td>
+                    @{ if (item.Eletronico)
+                        {
+                            @:Sim
+                        }
+                        else
+                        {
+                            @:Não
+                        }
+                    }
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Periodo)
