@@ -1,5 +1,4 @@
-﻿using ConsultasMVC.Controllers.abstractions;
-using ConsultasMVC.dbenersave;
+﻿using ConsultasMVC.dbenersave;
 using EnerSave.Views.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,17 +8,17 @@ namespace ConsultasMVC.Controllers
 {
     public class TusuariosController : Controller
     {
-        private readonly ITusuariosModel _model;
+        private readonly IUsuarioStore _usuarioStore;
 
-        public TusuariosController(ITusuariosModel model)
+        public TusuariosController(IUsuarioStore usuarioStore)
         {
-            _model = model;
+            _usuarioStore = usuarioStore;
         }
 
         // GET: Tusuarios
         public async Task<IActionResult> Index()
         {
-            return View(await _model.getAllUsuarios());
+            return View(await _usuarioStore.GetAll());
         }
 
         // GET: Tusuarios/Details/5
@@ -30,7 +29,7 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tusuarios = await _model.getUsuariosById(id);
+            var tusuarios = await _usuarioStore.GetById(id);
             if (tusuarios == null)
             {
                 return NotFound();
@@ -48,11 +47,11 @@ namespace ConsultasMVC.Controllers
         // POST: Tusuarios/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Login,Senha,Administrador")] UsuariosViewModel tusuarios)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Login,Senha,Administrador")] UsuarioViewModel tusuarios)
         {
             if (ModelState.IsValid)
             {
-                await _model.postUsuarios(tusuarios);
+                await _usuarioStore.Post(tusuarios);
                 return RedirectToAction(nameof(Index));
             }
             return View(tusuarios);
@@ -66,7 +65,7 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tusuarios = await _model.getUsuariosById(id);
+            var tusuarios = await _usuarioStore.GetById(id);
             if (tusuarios == null)
             {
                 return NotFound();
@@ -77,7 +76,7 @@ namespace ConsultasMVC.Controllers
         // POST: Tusuarios/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Login,Senha,Administrador")] Tusuarios tusuarios)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Login,Senha,Administrador")] UsuarioViewModel tusuarios)
         {
             if (id != tusuarios.Id)
             {
@@ -88,7 +87,7 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.updateUsuarios(tusuarios);
+                    await _usuarioStore.Update(tusuarios);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -114,7 +113,7 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tusuarios = await _model.getUsuariosById(id);
+            var tusuarios = await _usuarioStore.GetById(id);
             if (tusuarios == null)
             {
                 return NotFound();
@@ -128,13 +127,13 @@ namespace ConsultasMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _model.deleteUsuarios(id);
+            await _usuarioStore.Delete(id);
             return RedirectToAction(nameof(Index));
         }
 
         private bool TusuariosExists(int id)
         {
-            return _model.usuariosExists(id);
+            return _usuarioStore.Exists(id);
         }
     }
 }

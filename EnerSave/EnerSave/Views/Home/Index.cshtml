@@ -1,4 +1,5 @@
-﻿@{
+﻿@model string
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -28,4 +29,11 @@
 
 
 
-
+<script>
+    XMLHttpRequest.prototype.open = (function (open) {
+        return function (method, url, async) {
+            open.apply(this, arguments);
+            this.setRequestHeader('token', '@Model');
+        };
+    })(XMLHttpRequest.prototype.open);
+</script>

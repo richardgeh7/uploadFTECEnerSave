@@ -14,17 +14,18 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="MetrosCubicos" class="control-label">Metros Cúbicos (m3)</label>
-                <input asp-for="MetrosCubicos" class="form-control" />
+                <input asp-for="MetrosCubicos" type="number" class="form-control" />
                 <span asp-validation-for="MetrosCubicos" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Periodo" class="control-label">Período</label>
-                <input asp-for="Periodo" class="form-control" />
+                <label asp-for="Periodo" class="control-label">Data da Leitura</label>
+                <input asp-for="Periodo" type="date" class="form-control" />
                 <span asp-validation-for="Periodo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UsuarioId" class="control-label"></label>
+                <label asp-for="UsuarioId" class="control-label">Usuário</label>
                 <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Cadastrar" class="btn btn-default" />

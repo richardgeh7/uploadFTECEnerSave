@@ -1,6 +1,5 @@
-﻿using ConsultasMVC.Controllers.abstractions;
-using ConsultasMVC.dbenersave;
-using EnerSave.Views.ViewModels;
+﻿using EnerSave.Views.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,22 +7,25 @@ using System.Threading.Tasks;
 
 namespace ConsultasMVC.Controllers
 {
-    public class TDescarteLixoController : Controller
+    //[Authorize]
+    public class TdescarteLixoController : Controller
     {
-        private readonly ITdescarteLixoModel _model;
+        private readonly IDescarteLixoStore _descarteStore;
+        private readonly IUsuarioStore _usuarioStore;
 
-        public TDescarteLixoController(ITdescarteLixoModel model)
+        public TdescarteLixoController(IDescarteLixoStore descateStore, IUsuarioStore usuarioStore)
         {
-            _model = model;
+            _descarteStore = descateStore;
+            _usuarioStore = usuarioStore;
         }
 
-        // GET: TDescarteLixo
+        // GET: TgastosAgua
         public async Task<IActionResult> Index()
         {
-            return View(await _model.getAllDescarteLixo());
+            return View(await _descarteStore.GetAll());
         }
 
-        // GET: TDescarteLixo/Details/5
+        // GET: TgastosAgua/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -31,38 +33,39 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tDescarteLixo = await _model.getDescarteLixoById(id);
-            if (tDescarteLixo == null)
+            var tgastosAgua = await _descarteStore.GetById(id);
+            if (tgastosAgua == null)
             {
                 return NotFound();
             }
 
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tDescarteLixo);
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
+            return View(tgastosAgua);
         }
 
-        // GET: TDescarteLixo/Create
-        public async Task<IActionResult> Create()
+        // GET: TgastosAgua/Create
+        public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
             return View();
         }
 
-        // POST: TDescarteLixo/Create
+        // POST: TgastosAgua/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Peso,Reciclavel,Organico,Eletronico,DescricaoLixo,Periodo,UsuarioId")] DescarteLixoViewModel tDescarteLixo)
+        public async Task<IActionResult> Create([Bind("Id,Peso,Organico,Reciclavel,Eletronico,Observacao,Periodo,UsuarioId")] DescarteLixoViewModel tgastos)
         {
             if (ModelState.IsValid)
             {
-                await _model.postDescarteLixo(tDescarteLixo);
+                await _descarteStore.Post(tgastos);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tDescarteLixo);
+            return View(tgastos);
         }
 
-        // GET: TDescarteLixo/Edit/5
+        // GET: TgastosAgua/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -70,21 +73,21 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tDescarteLixo = await _model.getDescarteLixoById(id);
-            if (tDescarteLixo == null)
+            var tgastos = await _descarteStore.GetById(id);
+            if (tgastos == null)
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tDescarteLixo);
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+            return View(tgastos);
         }
 
-        // POST: TDescarteLixo/Edit/5
+        // POST: TgastosAgua/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Peso,Reciclavel,Organico,Eletronico,DescricaoLixo,Periodo,UsuarioId")] TdescarteLixo tDescarteLixo)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Peso,Organico,Reciclavel,Eletronico,Observacao,Periodo,UsuarioId")] DescarteLixoViewModel tgastos)
         {
-            if (id != tDescarteLixo.Id)
+            if (id != tgastos.Id)
             {
                 return NotFound();
             }
@@ -93,11 +96,11 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.updateDescarteLixo(tDescarteLixo);
+                    await _descarteStore.Update(tgastos);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TDescarteLixoExists(tDescarteLixo.Id))
+                    if (!TgastosExists(tgastos.Id))
                     {
                         return NotFound();
                     }
@@ -108,11 +111,10 @@ namespace ConsultasMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tDescarteLixo);
+            return View(tgastos);
         }
 
-        // GET: TDescarteLixo/Delete/5
+        // GET: TgastosAgua/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -120,27 +122,29 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tDescarteLixo = await _model.getDescarteLixoById(id);
-            if (tDescarteLixo == null)
+            var tgastosAgua = await _descarteStore.GetById(id);
+            if (tgastosAgua == null)
             {
                 return NotFound();
             }
 
-            return View(tDescarteLixo);
+            return View(tgastosAgua);
         }
 
-        // POST: TDescarteLixo/Delete/5
+        // POST: TgastosAgua/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _model.deleteDescarteLixo(id);
+            await _descarteStore.Delete(id);
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TDescarteLixoExists(int id)
+        private bool TgastosExists(int id)
         {
-            return _model.descarteLixoExists(id);
+            return _descarteStore.Exists(id);
         }
+
+
     }
 }

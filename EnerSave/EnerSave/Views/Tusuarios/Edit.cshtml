@@ -1,4 +1,4 @@
-﻿@model ConsultasMVC.dbenersave.Tusuarios
+﻿@model ConsultasMVC.Entities.UsuarioEntity
 
 @{
     ViewData["Title"] = "Edit";
@@ -24,9 +24,16 @@
                 <span asp-validation-for="Login" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Senha" class="control-label">Senha</label>
+                <input asp-for="Senha" class="form-control" type="password" />
+            </div>
+            <div class="form-group">
                 <label asp-for="Administrador" class="control-label">Administrador</label>
-                <input asp-for="Administrador" class="form-control" />
-                <span asp-validation-for="Administrador" class="text-danger"></span>
+                @Html.RadioButtonFor(Models => Models.Administrador, 1)
+                <span>Sim</span>
+
+                @Html.RadioButtonFor(Models => Models.Administrador, 0)
+                <span>Não</span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-default" />

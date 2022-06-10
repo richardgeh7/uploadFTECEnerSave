@@ -1,4 +1,4 @@
-﻿@model ConsultasMVC.dbenersave.Tusuarios
+﻿@model ConsultasMVC.Entities.UsuarioEntity
 
 @{
     ViewData["Title"] = "Delete";
@@ -33,6 +33,6 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Excluir" class="btn btn-default" /> |
-        <a asp-action="Index" >Cancelar</a>
+        <a asp-action="Index">Cancelar</a>
     </form>
 </div>

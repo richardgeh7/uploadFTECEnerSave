@@ -1,6 +1,4 @@
-﻿using ConsultasMVC.Controllers.abstractions;
-using ConsultasMVC.dbenersave;
-using ConsultasMVC.Models;
+﻿using ConsultasMVC.dbenersave;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -8,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Globalization;
 
 namespace ConsultasMVC
 {
@@ -32,14 +31,15 @@ namespace ConsultasMVC
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddScoped<ITgastosAguaModel, TgastosAguaModel>();
-            services.AddScoped<ITgastosEnergiaModel, TgastosEnergiaModel>();
-            services.AddScoped<ITdescarteLixoModel, TdescarteLixoModel>();
-            services.AddScoped<ITusuariosModel, TusuariosModel>();
+            services.AddScoped<ITgastosAguaStore, GastosAguaStore>();
+            services.AddScoped<ITgastosEnergiaStore, GastosEnergiaStore>();
+            services.AddScoped<IDescarteLixoStore, DescarteLixoStore>();
+            services.AddScoped<IUsuarioStore, UsuarioStore>();
 
+            //var connection = @"server=localhost;user id=dbenersave;database=dbenersave;password=;port=3306;CHARSET=utf8;convert zero datetime=True;";
             var connection = @"server=localhost;user id=root;database=dbenersave;password=maplestory1;port=3306";
-            services.AddDbContext<DbenersaveContext>
-                (options => options.UseMySQL(connection));
+            services.AddDbContext<DbEnerSaveContext>
+                (options => options.UseMySql(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,11 +59,19 @@ namespace ConsultasMVC
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
+            CultureInfo customCulture = new CultureInfo(CultureInfo.CurrentCulture.Name);
+            customCulture.NumberFormat.NumberDecimalSeparator = ".";
+
+            CultureInfo.DefaultThreadCurrentCulture = customCulture;
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "login",
+                    template: "{controller=Login}/{action=Login}");
                 routes.MapRoute(
                     name: "gastosAgua",
                     template: "{controller=TgastosAgua}/{action=Index}/{id?}");

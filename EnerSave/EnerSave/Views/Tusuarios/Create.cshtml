@@ -1,4 +1,4 @@
-﻿@model EnerSave.Views.ViewModels.UsuariosViewModel
+﻿@model ConsultasMVC.Entities.UsuarioEntity
 
 @{
     ViewData["Title"] = "Create";
@@ -24,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Senha" class="control-label">Senha</label>
-                @Html.PasswordFor(Models => Models.Senha)
+                <input asp-for="Senha" class="form-control" type="password" />
             </div>
             <div class="form-group">
                 <label asp-for="Administrador" class="control-label">Administrador</label>

@@ -1,6 +1,6 @@
-﻿using ConsultasMVC.Controllers.abstractions;
-using ConsultasMVC.dbenersave;
+﻿using ConsultasMVC.Entities;
 using EnerSave.Views.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,22 +8,25 @@ using System.Threading.Tasks;
 
 namespace ConsultasMVC.Controllers
 {
+    //[Authorize]
     public class TgastosEnergiaController : Controller
     {
-        private readonly ITgastosEnergiaModel _model;
+        private readonly ITgastosEnergiaStore _gastos;
+        private readonly IUsuarioStore _usuarioStore;
 
-        public TgastosEnergiaController(ITgastosEnergiaModel model)
+        public TgastosEnergiaController(ITgastosEnergiaStore gastos, IUsuarioStore usuarioStore)
         {
-            _model = model;
+            _gastos = gastos;
+            _usuarioStore = usuarioStore;
         }
 
-        // GET: TgastosEnergia
+        // GET: TgastosAgua
         public async Task<IActionResult> Index()
         {
-            return View(await _model.getAllGastosEnergia());
+            return View(await _gastos.GetAll());
         }
 
-        // GET: TgastosEnergia/Details/5
+        // GET: TgastosAgua/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -31,37 +34,39 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosEnergia = await _model.getGastosEnergiaById(id);
-            if (tgastosEnergia == null)
+            var tgastosAgua = await _gastos.GetById(id);
+            if (tgastosAgua == null)
             {
                 return NotFound();
             }
 
-            return View(tgastosEnergia);
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
+            return View(tgastosAgua);
         }
 
-        // GET: TgastosEnergia/Create
-        public async Task<IActionResult> Create()
+        // GET: TgastosAgua/Create
+        public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
             return View();
         }
 
-        // POST: TgastosEnergia/Create
+        // POST: TgastosAgua/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Kilowatts,Valor,Periodo,UsuarioId")] GastosEnergiaViewModel tgastosEnergia)
+        public async Task<IActionResult> Create([Bind("Id,Kwh,Valor,Periodo,UsuarioId")] GastosEnergiaViewModel tgastos)
         {
             if (ModelState.IsValid)
             {
-                await _model.postGastosEnergia(tgastosEnergia);
+                await _gastos.Post(tgastos);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tgastosEnergia);
+            return View(tgastos);
         }
 
-        // GET: TgastosEnergia/Edit/5
+        // GET: TgastosAgua/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -69,21 +74,23 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosEnergia = await _model.getGastosEnergiaById(id);
-            if (tgastosEnergia == null)
+            var tgastos = await _gastos.GetById(id);
+            if (tgastos == null)
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tgastosEnergia);
+
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
+            return View(tgastos);
         }
 
-        // POST: TgastosEnergia/Edit/5
+        // POST: TgastosAgua/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Kilowatts,Valor,Periodo,UsuarioId")] TgastosEnergia tgastosEnergia)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Kwh,Valor,Periodo,UsuarioId")] GastosEnergiaEntity tgastos)
         {
-            if (id != tgastosEnergia.Id)
+            if (id != tgastos.Id)
             {
                 return NotFound();
             }
@@ -92,11 +99,11 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.updateGastosEnergia(tgastosEnergia);
+                    await _gastos.Update(tgastos);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TgastosEnergiaExists(tgastosEnergia.Id))
+                    if (!TgastosExists(tgastos.Id))
                     {
                         return NotFound();
                     }
@@ -107,11 +114,10 @@ namespace ConsultasMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(await _model.getUsuarios(), "Id", "Nome");
-            return View(tgastosEnergia);
+            return View(tgastos);
         }
 
-        // GET: TgastosEnergia/Delete/5
+        // GET: TgastosAgua/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -119,44 +125,43 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosEnergia = await _model.getGastosEnergiaById(id);
-            if (tgastosEnergia == null)
+            var tgastosAgua = await _gastos.GetById(id);
+            if (tgastosAgua == null)
             {
                 return NotFound();
             }
 
-            return View(tgastosEnergia);
+            return View(tgastosAgua);
         }
 
-        // POST: TgastosEnergia/Delete/5
+        // POST: TgastosAgua/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _model.deleteGastosEnergia(id);
+            await _gastos.Delete(id);
             return RedirectToAction(nameof(Index));
+        }
+
+        private bool TgastosExists(int id)
+        {
+            return _gastos.Exists(id);
         }
 
         public IActionResult Grafico()
         {
             return View();
         }
-        
+
         public IActionResult Real()
         {
             return View();
         }
-
-        private bool TgastosEnergiaExists(int id)
-        {
-            return _model.gastosEnergiaExists(id);
-        }
-
         // Função para gerar lista Json
-        public async Task<JsonResult> DadosGrafico() 
-        {  
-           var lista = await _model.getAllGastosEnergia();  
-           return Json(lista);  
-        }  
+        public async Task<JsonResult> DadosGrafico()
+        {
+            var lista = await _gastos.GetAll();
+            return Json(lista);
+        }
     }
 }

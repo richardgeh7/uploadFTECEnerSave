@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ConsultasMVC.dbenersave.TgastosAgua>
+﻿@model IEnumerable<ConsultasMVC.Entities.GastosAguaEntity>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,11 +6,12 @@
 
 <h2>Gastos de Água</h2>
 <h5>Abaixo são exibidos os gastos com água cadastrados.</h5>
+<hr />
 <br />
 
 <p>
     <a asp-action="Create">
-       <input type="submit" value="Novo Gasto de Água" class="btn btn-default">
+        <input type="submit" value="Novo Gasto de Água" class="btn btn-default">
     </a>
 </p>
 <table class="table">
@@ -20,7 +21,7 @@
                 Metros Cúbicos (m3)
             </th>
             <th>
-                Período
+                Data de Leitura
             </th>
             <th>
                 Usuário
@@ -62,7 +63,6 @@
         }
     </tbody>
 </table>
-
 <a asp-action="Grafico">
     <button type="button" class="btn btn-sm">
         <span>Gráfico</span>

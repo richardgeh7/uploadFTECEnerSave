@@ -1,4 +1,4 @@
-﻿@model ConsultasMVC.dbenersave.Tusuarios
+﻿@model ConsultasMVC.Entities.UsuarioEntity
 
 @{
     ViewData["Title"] = "Details";
@@ -25,7 +25,14 @@
             Administrador:
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Administrador)
+            @if(Model.Administrador == 0)
+            {
+                @:Não
+            }
+            else
+            {
+                @:Sim
+            }
         </dd>
         <br />
     </dl>

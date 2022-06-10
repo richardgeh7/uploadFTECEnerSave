@@ -1,43 +1,70 @@
-﻿@model ConsultasMVC.dbenersave.TdescarteLixo
+﻿@model ConsultasMVC.Entities.DescarteLixoEntity
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h2>Detalhes do Descarte de Lixo</h2>
+<h2>Detalhes do Descarte de lixo</h2>
+<h3>Grafico??</h3>
+
 
 <div>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Peso(KG):
+            Peso (Kg)
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Peso)
         </dd>
         <dt>
-            Reciclável:
+            Orgânico
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Reciclavel)
+            @{ if (Model.Organico)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
         </dd>
         <dt>
-            Orgânico:
+            Seletivo
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Organico)
+            @{ if (Model.Reciclavel)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
         </dd>
         <dt>
-            Eletrônico:
+            Eletrônico
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Eletronico)
+            @{ if (Model.Eletronico)
+                {
+                    @:Sim
+                }
+                else
+                {
+                    @:Não
+                }
+            }
         </dd>
+
         <dt>
-            Descrição do Lixo:
+            Observação:
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.DescricaoLixo)
+            @Html.DisplayFor(model => model.Observacao)
         </dd>
         <dt>
             Período:
