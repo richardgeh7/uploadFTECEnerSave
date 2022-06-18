@@ -13,7 +13,7 @@ create table tusuarios (
     nome varchar(30) not null,
     login varchar(20) not null,
     senha varchar(20) not null,
-    administrador boolean not null
+    administrador int not null
 );
 
 

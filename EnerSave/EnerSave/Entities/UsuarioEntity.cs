@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -16,5 +17,10 @@ namespace ConsultasMVC.Entities
         public string Nome { get; set; }
 
         public bool Administrador { get; set; }
+
+
+        public virtual ICollection<GastosAguaEntity> TgastosAgua { get; set; }
+        public virtual ICollection<GastosEnergiaEntity> TgastosEnergia { get; set; }
+        public virtual ICollection<DescarteLixoEntity> TdescarteLixo { get; set; }
     }
 }

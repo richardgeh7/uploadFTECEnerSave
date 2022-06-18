@@ -1,6 +1,7 @@
 ﻿using EnerSave.Views.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
@@ -9,17 +10,19 @@ namespace ConsultasMVC.Controllers
     //[Authorize]
     public class TdescarteLixoController : Controller
     {
-        private readonly IDescarteLixoStore _model;
+        private readonly IDescarteLixoStore _descarteStore;
+        private readonly IUsuarioStore _usuarioStore;
 
-        public TdescarteLixoController(IDescarteLixoStore model)
+        public TdescarteLixoController(IDescarteLixoStore descateStore, IUsuarioStore usuarioStore)
         {
-            _model = model;
+            _descarteStore = descateStore;
+            _usuarioStore = usuarioStore;
         }
 
         // GET: TgastosAgua
         public async Task<IActionResult> Index()
         {
-            return View(await _model.GetAll());
+            return View(await _descarteStore.GetAll());
         }
 
         // GET: TgastosAgua/Details/5
@@ -30,11 +33,13 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
+            var tgastosAgua = await _descarteStore.GetById(id);
             if (tgastosAgua == null)
             {
                 return NotFound();
             }
+
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
 
             return View(tgastosAgua);
         }
@@ -42,6 +47,8 @@ namespace ConsultasMVC.Controllers
         // GET: TgastosAgua/Create
         public IActionResult Create()
         {
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
             return View();
         }
 
@@ -52,7 +59,7 @@ namespace ConsultasMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _model.Post(tgastos);
+                await _descarteStore.Post(tgastos);
                 return RedirectToAction(nameof(Index));
             }
             return View(tgastos);
@@ -66,11 +73,12 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastos = await _model.GetById(id);
+            var tgastos = await _descarteStore.GetById(id);
             if (tgastos == null)
             {
                 return NotFound();
             }
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
             return View(tgastos);
         }
 
@@ -88,7 +96,7 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.Update(tgastos);
+                    await _descarteStore.Update(tgastos);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -114,7 +122,7 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
+            var tgastosAgua = await _descarteStore.GetById(id);
             if (tgastosAgua == null)
             {
                 return NotFound();
@@ -128,13 +136,13 @@ namespace ConsultasMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _model.Delete(id);
+            await _descarteStore.Delete(id);
             return RedirectToAction(nameof(Index));
         }
 
         private bool TgastosExists(int id)
         {
-            return _model.Exists(id);
+            return _descarteStore.Exists(id);
         }
 
 

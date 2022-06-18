@@ -20,7 +20,10 @@ namespace ConsultasMVC
 
         public async Task<IEnumerable<GastosEnergiaEntity>> GetAll()
         {
-            return await _context.GastosEnergiaContext.ToListAsync();
+            var all = await _context.GastosEnergiaContext.ToListAsync();
+            all.ForEach(x => x.Usuario = _context.UsuarioContext.FirstOrDefault(c => c.Id == x.UsuarioId));
+
+            return all;
         }
         public async Task<GastosEnergiaEntity> GetById(int? id)
         {

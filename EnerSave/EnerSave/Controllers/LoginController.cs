@@ -21,7 +21,7 @@ namespace EnerSave.Controllers
             _model = model;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
@@ -55,6 +55,9 @@ namespace EnerSave.Controllers
                     return Redirect("/");
                 }
             }
+
+            ViewData["Mensagem"] = "Usuário ou senha Inválidos!";
+
             return View();
         }
     }

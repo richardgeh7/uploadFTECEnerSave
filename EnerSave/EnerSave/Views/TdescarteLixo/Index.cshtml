@@ -83,7 +83,7 @@
                     @Html.DisplayFor(modelItem => item.Periodo)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.UsuarioId)
+                    @Html.DisplayFor(modelItem => item.Usuario.Nome)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">

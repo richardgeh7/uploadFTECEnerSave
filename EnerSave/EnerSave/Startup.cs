@@ -37,8 +37,9 @@ namespace ConsultasMVC
             services.AddScoped<IUsuarioStore, UsuarioStore>();
 
             //var connection = @"server=localhost;user id=dbenersave;database=dbenersave;password=;port=3306;CHARSET=utf8;convert zero datetime=True;";
-            var connection = @"server=localhost;user id=root;database=dbenersave;password=123456;port=3306";
-            services.AddDbContext<DbEnerSaveContext>(options => options.UseMySql(connection));
+            var connection = @"server=localhost;user id=root;database=dbenersave;password=maplestory1;port=3306";
+            services.AddDbContext<DbEnerSaveContext>
+                (options => options.UseMySql(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,10 +68,22 @@ namespace ConsultasMVC
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
                 routes.MapRoute(
-                   name: "login",
-                   template: "{controller=Login}/{action=Index}");
+                    name: "login",
+                    template: "{controller=Login}/{action=Login}");
+                routes.MapRoute(
+                    name: "gastosAgua",
+                    template: "{controller=TgastosAgua}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "gastosEnergia",
+                    template: "{controller=TgastosEnergia}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "descarteLixo",
+                    template: "{controller=TdescarteLixo}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "usuarios",
+                    template: "{controller=Tusuarios}/{action=Index}/{id?}");
             });
         }
     }

@@ -2,6 +2,7 @@
 using EnerSave.Views.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
@@ -10,17 +11,19 @@ namespace ConsultasMVC.Controllers
     //[Authorize]
     public class TgastosAguaController : Controller
     {
-        private readonly ITgastosAguaStore _model;
+        private readonly ITgastosAguaStore _aguaStore;
+        private readonly IUsuarioStore _usuarioStore;
 
-        public TgastosAguaController(ITgastosAguaStore model)
+        public TgastosAguaController(ITgastosAguaStore aguaStore, IUsuarioStore usuarioStore)
         {
-            _model = model;
+            _aguaStore = aguaStore;
+            _usuarioStore = usuarioStore;
         }
 
         // GET: TgastosAgua
         public async Task<IActionResult> Index()
         {
-            return View(await _model.GetAll());
+            return View(await _aguaStore.GetAll());
         }
 
         // GET: TgastosAgua/Details/5
@@ -31,11 +34,13 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
+            var tgastosAgua = await _aguaStore.GetById(id);
             if (tgastosAgua == null)
             {
                 return NotFound();
             }
+
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
 
             return View(tgastosAgua);
         }
@@ -43,6 +48,8 @@ namespace ConsultasMVC.Controllers
         // GET: TgastosAgua/Create
         public IActionResult Create()
         {
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
             return View();
         }
 
@@ -53,7 +60,7 @@ namespace ConsultasMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _model.Post(tgastosAgua);
+                await _aguaStore.Post(tgastosAgua);
                 return RedirectToAction(nameof(Index));
             }
             return View(tgastosAgua);
@@ -67,11 +74,13 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
+            var tgastosAgua = await _aguaStore.GetById(id);
             if (tgastosAgua == null)
             {
                 return NotFound();
             }
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+
             return View(tgastosAgua);
         }
 
@@ -89,7 +98,7 @@ namespace ConsultasMVC.Controllers
             {
                 try
                 {
-                    await _model.Update(tgastosAgua);
+                    await _aguaStore.Update(tgastosAgua);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -115,7 +124,7 @@ namespace ConsultasMVC.Controllers
                 return NotFound();
             }
 
-            var tgastosAgua = await _model.GetById(id);
+            var tgastosAgua = await _aguaStore.GetById(id);
             if (tgastosAgua == null)
             {
                 return NotFound();
@@ -129,13 +138,28 @@ namespace ConsultasMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _model.Delete(id);
+            await _aguaStore.Delete(id);
             return RedirectToAction(nameof(Index));
         }
 
         private bool TgastosAguaExists(int id)
         {
-            return _model.Exists(id);
+            return _aguaStore.Exists(id);
         }
+
+        // GET: TgastosAgua/Grafico
+        public async Task<IActionResult> Grafico()
+        {
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+            return View();
+        }
+
+        // Função para gerar lista Json
+        public async Task<JsonResult> DadosGrafico()
+        {
+            var lista = await _aguaStore.GetAllGastosAguaGrafico();
+            return Json(lista);
+        }
+
     }
 }

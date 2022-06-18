@@ -104,3 +104,280 @@ C:\Users\gusta\source\repos\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netco
 C:\Users\gusta\source\repos\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
 C:\Users\gusta\source\repos\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
 C:\Users\gusta\source\repos\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.deps.json
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.json
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.dev.json
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.dll
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csprojAssemblyReference.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfo.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.input.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.output.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorCoreGenerate.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC_VERSION_GABI\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Users\User\Desktop\TCC\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.deps.json
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.json
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.dev.json
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.dll
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.dll
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.AssemblyReference.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfoInputs.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfo.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CoreCompileInputs.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.input.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.output.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorCoreGenerate.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Grafico.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Grafico.cshtml.g.cs
+C:\Projeto\novo\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Real.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.json
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.deps.json
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.json
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.dev.json
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.dll
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.pdb
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.dll
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.pdb
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csprojAssemblyReference.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfoInputs.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfo.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CoreCompileInputs.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.input.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.output.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorCoreGenerate.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Grafico.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Grafico.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Real.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.Views.pdb
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Create.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Delete.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Details.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Edit.cshtml.g.cs
+D:\User\Downloads\uploadFTECEnerSave-master\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.deps.json
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.json
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.dev.json
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.dll
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csprojAssemblyReference.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfo.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.input.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.output.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorCoreGenerate.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Grafico.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Grafico.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Real.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Create.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Delete.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Details.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Edit.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Index.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
+C:\Users\User\Desktop\UltimaVersao\uploadFTECEnerSave-master (1)\uploadFTECEnerSave-master\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.deps.json
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.json
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.runtimeconfig.dev.json
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.dll
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\bin\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.AssemblyInfo.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.input.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.TagHelpers.output.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorCoreGenerate.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\CriarConta\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Create.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Details.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TdescarteLixo\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Create.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Details.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Grafico.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosAgua\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Create.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Details.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Grafico.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\TgastosEnergia\Real.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Create.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Delete.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Details.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Edit.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\Tusuarios\Index.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.Views.pdb
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.dll
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.pdb
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.genruntimeconfig.cache
+C:\Users\User\Desktop\ftecMain\uploadFTECEnerSave\EnerSave\EnerSave\obj\Debug\netcoreapp2.1\EnerSave.csproj.CopyComplete

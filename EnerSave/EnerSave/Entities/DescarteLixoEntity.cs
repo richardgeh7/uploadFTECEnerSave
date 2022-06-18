@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace ConsultasMVC.Entities
 {
@@ -16,7 +17,8 @@ namespace ConsultasMVC.Entities
         public string Observacao { get; set; }
 
         public int UsuarioId { get; set; }
-        
+        [JsonIgnore]
+
         public virtual UsuarioEntity Usuario { get; set; }
     }
 }

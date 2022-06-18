@@ -36,7 +36,7 @@ namespace ConsultasMVC
             entity.Login = model.Login;
             entity.Nome = model.Nome;
             entity.Senha = model.Senha;
-            entity.Administrador = false;
+            entity.Administrador = model.Administrador;
 
             _context.Add(entity);
             
@@ -46,6 +46,41 @@ namespace ConsultasMVC
         public async Task<bool> LoginAsync(string login, string senha)
         {
             return _context.UsuarioContext.Any(m => m.Login == login && m.Senha == senha);
+        }
+
+        public List<UsuarioEntity> GetUsuarios()
+        {
+            return _context.UsuarioContext.ToList();
+        }
+
+        public async Task<int> Delete(int id)
+        {
+            var tusuario = await _context.UsuarioContext.FindAsync(id);
+            _context.UsuarioContext.Remove(tusuario);
+            return await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<UsuarioEntity>> GetAll()
+        {
+            return await _context.UsuarioContext.ToListAsync();
+        }
+
+        public bool Exists(int id)
+        {
+            return _context.UsuarioContext.Any(e => e.Id == id);
+        }
+
+        public async Task<int> Update(UsuarioViewModel tusuarios)
+        {
+            try
+            {
+                _context.Update(tusuarios);
+                return await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
         }
     }
 }

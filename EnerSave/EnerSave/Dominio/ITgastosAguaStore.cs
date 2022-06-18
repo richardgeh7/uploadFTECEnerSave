@@ -14,5 +14,10 @@ namespace ConsultasMVC
         Task<int> Update(GastosAguaEntity model);
         Task<int> Delete(int id);
         bool Exists(int id);
+        Task<IEnumerable<GastosAguaEntity>> GetAllGastosAguaGrafico();
+
+
+
+
     }
 }

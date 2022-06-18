@@ -20,7 +20,10 @@ namespace ConsultasMVC
 
         public async Task<IEnumerable<DescarteLixoEntity>> GetAll()
         {
-            return await _context.DescarteLixoContext.ToListAsync();
+            var all = await _context.DescarteLixoContext.ToListAsync();
+            all.ForEach(x => x.Usuario = _context.UsuarioContext.FirstOrDefault(c => c.Id == x.UsuarioId));
+
+            return all;
         }
         public async Task<DescarteLixoEntity> GetById(int? id)
         {

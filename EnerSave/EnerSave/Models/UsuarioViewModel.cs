@@ -16,5 +16,6 @@ namespace EnerSave.Views.ViewModels
         
         [Required(AllowEmptyStrings = false)]
         public string Nome { get; set; }
+        public bool Administrador { get; set; }
     }
 }

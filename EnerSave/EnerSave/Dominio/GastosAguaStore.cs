@@ -20,7 +20,10 @@ namespace ConsultasMVC
 
         public async Task<IEnumerable<GastosAguaEntity>> GetAll()
         {
-            return await _context.GastosAguaContext.ToListAsync();
+            var all =  await _context.GastosAguaContext.ToListAsync();
+            all.ForEach(x => x.Usuario = _context.UsuarioContext.FirstOrDefault(c => c.Id == x.UsuarioId));
+
+            return all;
         }
         public async Task<GastosAguaEntity> GetById(int? id)
         {
@@ -58,6 +61,14 @@ namespace ConsultasMVC
         public bool Exists(int id)
         {
             return _context.GastosAguaContext.Any(e => e.Id == id);
+        }
+
+        public async Task<IEnumerable<GastosAguaEntity>> GetAllGastosAguaGrafico()
+        {
+            var all = await _context.GastosAguaContext.ToListAsync();
+            all.ForEach(x => x.Usuario = _context.UsuarioContext.FirstOrDefault(c => c.Id == x.UsuarioId));
+
+            return all;
         }
     }
 }

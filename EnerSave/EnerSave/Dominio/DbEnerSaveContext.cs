@@ -40,10 +40,10 @@ namespace ConsultasMVC.dbenersave
                 entity.Property(e => e.UsuarioId)
                     .HasColumnName("usu_id");
 
-                entity.HasOne(x => x.Usuario).WithOne().HasForeignKey<UsuarioEntity>(x=>x.Id);
-
-                //Builder.HasOne(X => X.Projeto).WithMany().HasForeignKey(X => X.IdProjeto);
-
+                entity.HasOne(d => d.Usuario)
+                    .WithMany(p => p.TgastosAgua)
+                    .HasForeignKey(d => d.UsuarioId)
+                    .HasConstraintName("tgastos_agua_ibfk_1");
             });
 
 
@@ -66,7 +66,10 @@ namespace ConsultasMVC.dbenersave
                 entity.Property(e => e.UsuarioId)
                     .HasColumnName("usu_id");
 
-                entity.HasOne(x => x.Usuario);
+                entity.HasOne(d => d.Usuario)
+                   .WithMany(p => p.TgastosEnergia)
+                   .HasForeignKey(d => d.UsuarioId)
+                   .HasConstraintName("tgastos_energia_ibfk_1");
             });
 
 
@@ -92,7 +95,10 @@ namespace ConsultasMVC.dbenersave
                 entity.Property(e => e.UsuarioId)
                     .HasColumnName("usu_id");
 
-                entity.HasOne(x => x.Usuario);
+                entity.HasOne(d => d.Usuario)
+                   .WithMany(p => p.TdescarteLixo)
+                   .HasForeignKey(d => d.UsuarioId)
+                   .HasConstraintName("tdescarte_lixo_ibfk_1");
 
             });
 

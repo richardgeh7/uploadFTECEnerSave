@@ -29,8 +29,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="UsuarioId" class="control-label">Usuário</label>
-                <input asp-for="UsuarioId" type="hidden" value="@EnerSave.Dominio.LoginSingleton.Instance.IdUsuario" />
-                <input disabled class="form-control" value="@EnerSave.Dominio.LoginSingleton.Instance.Usuario" />
+                <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
                 <span asp-validation-for="UsuarioId" class="text-danger"></span>
             </div>
             <div class="form-group">
