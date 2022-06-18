@@ -37,7 +37,7 @@ namespace ConsultasMVC
             services.AddScoped<IUsuarioStore, UsuarioStore>();
 
             //var connection = @"server=localhost;user id=dbenersave;database=dbenersave;password=;port=3306;CHARSET=utf8;convert zero datetime=True;";
-            var connection = @"server=localhost;user id=root;database=dbenersave;password=maplestory1;port=3306";
+            var connection = @"server=localhost;user id=root;database=dbenersave;password=123456;port=3306";
             services.AddDbContext<DbEnerSaveContext>
                 (options => options.UseMySql(connection));
         }
