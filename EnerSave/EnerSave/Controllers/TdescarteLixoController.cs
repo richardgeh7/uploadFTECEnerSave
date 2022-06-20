@@ -145,6 +145,20 @@ namespace ConsultasMVC.Controllers
             return _descarteStore.Exists(id);
         }
 
+        // GET: TgastosLixo/Grafico
+        public async Task<IActionResult> Grafico()
+        {
+            ViewData["UsuarioId"] = new SelectList(_usuarioStore.GetUsuarios(), "Id", "Nome");
+            return View();
+        }
+
+        // Função para gerar lista Json
+        public async Task<JsonResult> DadosGrafico()
+        {
+            var lista = await _descarteStore.GetAllDescarteLixoGrafico();
+            return Json(lista);
+        }
+
 
     }
 }

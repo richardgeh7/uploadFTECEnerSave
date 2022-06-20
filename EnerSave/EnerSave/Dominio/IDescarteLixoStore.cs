@@ -14,5 +14,6 @@ namespace ConsultasMVC
         Task<int> Update(DescarteLixoViewModel model);
         Task<int> Delete(int id);
         bool Exists(int id);
+        Task<IEnumerable<DescarteLixoEntity>> GetAllDescarteLixoGrafico();
     }
 }

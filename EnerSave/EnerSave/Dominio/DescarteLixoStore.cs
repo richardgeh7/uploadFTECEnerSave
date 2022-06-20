@@ -77,5 +77,13 @@ namespace ConsultasMVC
         {
             return _context.DescarteLixoContext.Any(e => e.Id == id);
         }
+
+        public async Task<IEnumerable<DescarteLixoEntity>> GetAllDescarteLixoGrafico()
+        {
+            var all = await _context.DescarteLixoContext.ToListAsync();
+            all.ForEach(x => x.Usuario = _context.UsuarioContext.FirstOrDefault(c => c.Id == x.UsuarioId));
+
+            return all;
+        }
     }
 }

@@ -88,17 +88,37 @@
         var data = google.visualization.arrayToDataTable(dataArray);  
         var options = {  
             title: 'Água consumida',  
+            backgroundColor: 'transparent',
+            colors: ["#57ca39", "#84C68C", "#52A55D", "#2C8437", "#10631B", "#004208"],
             chartArea: {  
                 width: '70%'  
             },  
-            colors: ['#b0120a', '#ffab91'],  
             hAxis: {  
-                title: 'Periodo',  
-                minValue: 0  
+                title: 'Período',  
+                minValue: 0,
+                textStyle: {
+                    color: '#656565',
+                }
             },  
             vAxis: {  
-                title: 'Consumo'  
-            }  
+                title: 'Consumo',
+                textStyle: {
+                    color: '#656565'
+                }
+            },
+            titleTextStyle: {
+                color: '#656565'
+            },
+            legend: {
+                textStyle: {
+                    color: '#656565'
+                }
+            },
+            animation:{
+                startup: true,
+                duration: 800,
+                easing: 'inAndOut'
+            },  
         };  
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  
         chart.draw(data, options);  
@@ -106,9 +126,11 @@
     }  
 </script> 
 
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
+<a asp-action="Index">
+    <button type="button" class="btn btn-sm">
+        <span>Voltar</span>
+    </button>
+</a>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

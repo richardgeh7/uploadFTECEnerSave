@@ -17,11 +17,11 @@
     function CarregaDados() {   
 
         $.ajax({  
-            url: '@Url.Action("DadosGrafico", "TgastosEnergia")',  
+            url: '@Url.Action("DadosGrafico", "TdescarteLixo")',  
             dataType:
              "json",  
             type: "GET",  
-            error: function(xhr, status, error) {  
+            error: function (xhr, status, error) {  
                 var err = eval("(" + xhr.responseText + ")");  
                 toastr.error(err.message);  
             },  
@@ -33,6 +33,7 @@
         });  
         return false;  
     }  
+
 
     function MontaGrafico(dados) {  
         var meses = [
@@ -57,7 +58,7 @@
         var primeiraLinha = ['Mês'];
 
         for (var usuarioId of usuarios) {
-            primeiraLinha.push("Usuário " + usuarioId)
+            primeiraLinha.push("Usuário " + usuarioId);
         }
 
         var dataArray = [  
@@ -74,7 +75,7 @@
             for (var usuarioId of usuarios) {
                 var dadoDoUsuario = dadosDoMes.filter(item => item.usuarioId == usuarioId);
                 if (dadoDoUsuario && dadoDoUsuario.length > 0) {
-                    linha.push(dadoDoUsuario[0].kwh);
+                    linha.push(dadoDoUsuario[0].peso);
                 } else {
                     linha.push(0);
                 }
@@ -85,8 +86,8 @@
 
          
         var data = google.visualization.arrayToDataTable(dataArray);  
-        var options = {  
-            title: 'Energia consumida em KWH',  
+        var options = {
+            title: 'Lixo descartado',
             backgroundColor: 'transparent',
             colors: ["#57ca39", "#84C68C", "#52A55D", "#2C8437", "#10631B", "#004208"],
             chartArea: {  
@@ -100,7 +101,7 @@
                 }
             },  
             vAxis: {  
-                title: 'Consumo (KHW)',
+                title: 'Consumo',
                 textStyle: {
                     color: '#656565'
                 }
@@ -117,8 +118,10 @@
                 startup: true,
                 duration: 800,
                 easing: 'inAndOut'
-            },    
-        };  
+            },  
+        };
+        
+
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  
         chart.draw(data, options);  
         return false;  
